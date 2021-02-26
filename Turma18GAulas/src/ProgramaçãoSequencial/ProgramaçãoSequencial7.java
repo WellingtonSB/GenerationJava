@@ -1,19 +1,18 @@
-package ProgramaçãoSequencial;
-/*
+package ProgramaÃ§Ã£oSequencial;
 
-Um sistema de equações lineares do tipo: 
+/*	Um sistema de equaÃ§Ãµes lineares do tipo: 
 	ax + by = c
 	dx + ey = f
 	pode ser resolvido segundo mostrado abaixo:
 	x = (ce - bf) / (ae - bd)
 	y = (af - cd) / (ee - bd)
-	Escreva um sistema que lê os coeficientes a,b,c,d,e, f 
+	Escreva um sistema que lÃª os coeficientes a,b,c,d,e, f 
 	e calcula e mostra os valores de x e y.
 */
 
 import java.util.Scanner;
 
-public class ProgramaçãoSequencial7 {
+public class ProgramaÃ§Ã£oSequencial7 {
 	public static void main(String[] args) {
 
 		double numA, numB, numC, numD, numE, numF, somaX, somaY;
@@ -35,7 +34,7 @@ public class ProgramaçãoSequencial7 {
 		somaX = (numC * numE - numB * numF) / (numA * numE - numB * numD);
 		somaY = (numA * numF - numC * numD) / (numA * numE - numB * numD);
 
-		System.out.println("O valor de X é: " + Math.round(somaX) + " e o valor de Y é:" + Math.round(somaY));
+		System.out.println("O valor de X Ã©: " + Math.round(somaX) + " e o valor de Y Ã©:" + Math.round(somaY));
 
 	}
 }
