@@ -1,6 +1,6 @@
 package LacosDecisao;
 
-//Faça um programa que receba três inteiros e diga qual deles é o maior.
+//FaÃ§a um programa que receba trÃªs inteiros e diga qual deles Ã© o maior
 import java.util.Scanner;
 
 public class X1 {
@@ -17,6 +17,6 @@ public class X1 {
 			}
 
 		}
-		System.out.println("O maior numero é: " + numero);
+		System.out.println("O maior numero Ã©: " + numero);
 	}
 }
