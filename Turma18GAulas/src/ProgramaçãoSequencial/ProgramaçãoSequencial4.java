@@ -1,17 +1,14 @@
-package ProgramaçãoSequencial;
+package ProgramaÃ§Ã£oSequencial;
 
 /*
-
-
-	Escreva  um sistema que leia três números inteiros e positivos (A, B, C) 
-	e calcule a seguinte expressão: D = (R + S) / 2, onde 
-	R = (A + B)²
-	S = (B + C)²
+Escreva um sistema que leia trÃªs nÃºmeros inteiros e positivos (A, B, C) e
+calcule a seguinte expressÃ£o:
+D=R+S/2, onde R=(A+B)Â² e S=(B+C)Â²
 */
 
 import java.util.Scanner; //biblioteca
 
-public class ProgramaçãoSequencial4 {
+public class ProgramaÃ§Ã£oSequencial4 {
 	public static void main(String[] args) {
 		int numA, numB, numC, numD, numR, numS;
 
@@ -27,7 +24,7 @@ public class ProgramaçãoSequencial4 {
 		numS = (int) Math.pow((numB + numC), 2);
 		numD = (numR + numS) / 2;
 
-		System.out.println("O resultado é: " + numD);
+		System.out.println("O resultado Ã©: " + numD);
 
 	}
 }
