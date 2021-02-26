@@ -1,5 +1,6 @@
 package LacosDecisao;
 
+//FaÃ§a um programa que entre com trÃªs nÃºmeros e coloque em ordem crescente.
 import java.util.Arrays; //listagem de matrizes (vetores)
 import java.util.Scanner;
 
@@ -8,9 +9,9 @@ public class X2 {
 		Scanner ler = new Scanner(System.in);
 		int listaDeNumeros[] = new int[4];
 
-		// Preenche o Array a partir da 1°posição
+		// Preenche o Array a partir da 1Â°posiÃ§Ã£o
 		for (int i = 1; i < listaDeNumeros.length; i++) {
-			System.out.print("Digite " + i + "° numero: ");
+			System.out.print("Digite " + i + "Â° numero: ");
 			listaDeNumeros[i] = (ler.nextInt());
 		}
 		// Coloca o Array em ordem crescente
