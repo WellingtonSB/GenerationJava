@@ -1,11 +1,9 @@
 package LacosDecisao;
 
+/*FaÃ§a um programa em que permita a entrada de um nÃºmero qualquer e exiba se este
+nÃºmero Ã© par ou Ã­mpar. Se for par exiba tambÃ©m a raiz quadrada do mesmo; se for
+Ã­mpar exiba o nÃºmero elevado ao quadrado.*/
 import java.util.Scanner;
-
-/*Faça um programa em que permita a entrada de um número qualquer e exiba se este
-número é par ou ímpar. Se for par exiba também a raiz quadrada do mesmo; se for
-ímpar exiba o número elevado ao quadrado.*/
-
 public class X4 {
 	public static void main(String[] args) {
 
@@ -21,12 +19,12 @@ public class X4 {
 
 			raiz = Math.sqrt(numero);
 
-			System.out.printf("O valor de %d é par e sua raiz é %f ", numero, raiz);
+			System.out.printf("O valor de %d Ã© par e sua raiz Ã© %f ", numero, raiz);
 
 		} else {
 			pot = Math.pow(numero, numero);
 
-			System.out.printf("O valor de %d é ímpar e seu valor ao quadrado é %d ", numero, Math.round(pot));
+			System.out.printf("O valor de %d Ã© Ã­mpar e seu valor ao quadrado Ã© %d ", numero, Math.round(pot));
 		}
 
 	}
