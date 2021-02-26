@@ -1,16 +1,14 @@
-package ProgramaçãoSequencial;
+package ProgramaÃ§Ã£oSequencial;
 
-/*
-
-	Construa um programa em c que, tendo como dados de entrada dois pontos quaisquer no plano,
-	P(x1, y1) e P(x2, y2),
-	escreva a distância entre eles. A fórmula que efetua tal cálculo é: 
-	d = RAIZ QUADRADA DE (x2 - x1)² + (y2 - y1)²
+/*Construa um programa em c que, tendo como dados de entrada dois pontos quaisquer no plano,
+P(x1, y1) e P(x2, y2),
+escreva a distÃ¢ncia entre eles. A fÃ³rmula que efetua tal cÃ¡lculo Ã©: 
+d = RAIZ QUADRADA DE (x2 - x1)Â² + (y2 - y1)Â²
 */
 
 import java.util.Scanner;
 
-public class ProgramaçãoSequencial6 {
+public class ProgramaÃ§Ã£oSequencial6 {
 	public static void main(String[] args) {
 		double d, x1, x2, y1, y2;
 
@@ -26,7 +24,7 @@ public class ProgramaçãoSequencial6 {
 
 		d = Math.sqrt(Math.pow(x2 - x1, 2) + Math.pow(y2 - y1, 2));
 
-		System.out.println("O valor de d é: " + Math.round(d));
+		System.out.println("O valor de d Ã©: " + Math.round(d));
 
 		// d = mat.raiz((mat.potencia((x2 - x1), 2) + mat.potencia((y2 - y1), 2)), 2)
 
