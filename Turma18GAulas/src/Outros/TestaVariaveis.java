@@ -1,5 +1,6 @@
 package Outros;
 
+
 public class TestaVariaveis {
 
 	public static void main(String[] args) {
@@ -11,10 +12,10 @@ public class TestaVariaveis {
 		System.out.println("ola novo teste");
 
 		if (idade >= 18) {
-			System.out.println("a idade é " + idade + ", parabéns!");
-			System.out.println("A sua media salarial é de: " + salario);
+			System.out.println("a idade Ã© " + idade + ", parabÃ©ns!");
+			System.out.println("A sua media salarial Ã© de: " + salario);
 		} else {
-			System.out.println("Infelizmente você não pode trabalhar aqui.");
+			System.out.println("Infelizmente vocÃª nÃ£o pode trabalhar aqui.");
 		}
 
 	}
