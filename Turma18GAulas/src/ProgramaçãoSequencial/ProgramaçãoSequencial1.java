@@ -1,8 +1,11 @@
-package ProgramaçãoSequencial;
+package ProgramaÃ§Ã£oSequencial;
 
-import java.util.Scanner; //Biblioteca identificar o que o u
+/*FaÃ§a um sistema que leia a idade de uma pessoa expressa em anos, meses e
+dias e mostre-a expressa apenas em dias.*/
 
-public class ProgramaçãoSequencial1 {
+import java.util.Scanner; 
+
+public class ProgramaÃ§Ã£oSequencial1 {
 
 	public static void main(String[] args) {
 		int anos, meses, dias, TotalEmDias;
@@ -17,7 +20,7 @@ public class ProgramaçãoSequencial1 {
 		dias = ler.nextInt();
 
 		TotalEmDias = (anos * 365) + (meses * 30) + (dias);
-		System.out.println("Sua idade em dias é de: " + TotalEmDias);
+		System.out.println("Sua idade em dias Ã© de: " + TotalEmDias);
 
 	}
 }
