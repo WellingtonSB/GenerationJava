@@ -1,8 +1,11 @@
-package ProgramaçãoSequencial;
+package ProgramaÃ§Ã£oSequencial;
+
+/*FaÃ§a um sistema que leia a idade de uma pessoa expressa em dias e mostre-a
+expressa em anos, meses e dias. */
 
 import java.util.Scanner;
 
-public class ProgramaçãoSequencial2 {
+public class ProgramaÃ§Ã£oSequencial2 {
 
 	public static void main(String[] args) {
 
@@ -17,7 +20,7 @@ public class ProgramaçãoSequencial2 {
 		meses = (totalEmDias % 365) / 30;
 		dias = (totalEmDias % 365) % 30;
 
-		System.out.println("Sua idade aproximada é de: " + anos + "anos, " + meses + " meses e " + dias + " dias.");
+		System.out.println("Sua idade aproximada Ã© de: " + anos + "anos, " + meses + " meses e " + dias + " dias.");
 
 	}
 
