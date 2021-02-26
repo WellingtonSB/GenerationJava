@@ -1,15 +1,12 @@
-package ProgramaÁ„oSequencial;
+package Programa√ß√£oSequencial;
 
-/*
-
-
-	FaÁa um sistema que leia o tempo de duraÁ„o de um evento em uma f·brica 
-	expressa em segundos e mostre-o expresso em horas, minutos e segundos.
+/*Fa√ßa um sistema que leia o tempo de dura√ß√£o de um evento em uma f√°brica
+expressa em segundos e mostre-o expresso em horas, minutos e segundos.
 */
 
 import java.util.Scanner;
 
-public class ProgramaÁ„oSequencial3 {
+public class Programa√ß√£oSequencial3 {
 	public static void main(String[] args) {
 		int totalSegundos, segundos, minutos, horas;
 
@@ -21,7 +18,7 @@ public class ProgramaÁ„oSequencial3 {
 		minutos = (totalSegundos % 3600) / 60;
 		segundos = (totalSegundos % 3600) % 60;
 
-		System.out.println("A duraÁ„o do evendo da f·brica È de " + horas + " hora(s), " + minutos + " minuto(s) "
+		System.out.println("A dura√ß√£o do evendo da f√°brica √© de " + horas + " hora(s), " + minutos + " minuto(s) "
 				+ segundos + " e segundo(s).");
 
 	}
