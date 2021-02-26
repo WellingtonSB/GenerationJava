@@ -1,6 +1,6 @@
 package Outros;
 
-import java.util.Scanner; //Biblioteca
+import java.util.Scanner; 
 
 public class EntradaSaida {
 	public static void main(String[] args) 
@@ -12,6 +12,6 @@ public class EntradaSaida {
 		System.out.print("Digite o valor de B: ");
 		b = ler.nextInt();
 		soma = a+b;
-		System.out.println("O total é: " + soma);
+		System.out.println("O total Ã©: " + soma);
 	}
 }
