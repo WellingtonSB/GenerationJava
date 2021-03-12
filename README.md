@@ -1,2 +1,2 @@
 # GenerationJava
-Exercícios de fixação de códigos, tais como: Laços de repetição, laços condicionais, vetores e matrizes utilizando Eclipse.
+Code-fixing exercises such as: Repeating loops, conditional loops, vectors, and matrices using Eclipse.
